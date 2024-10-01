@@ -1,0 +1,37 @@
+{
+  "name": "blogging-platform-api",
+  "version": "1.0.0",
+  "description": "A simple RESTful API with basic CRUD operations for a personal blogging platform.",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "REST",
+    "CRUD",
+    "API"
+  ],
+  "author": "PI Miracle",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "@types/nodemon": "^1.19.6",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@types/http-errors": "^2.0.4",
+    "@types/morgan": "^1.9.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.2.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0"
+  }
+}
